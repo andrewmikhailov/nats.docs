@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the output file
-output_file=".corpora.md"
+output_file=".nats.corpora.md"
 
 # Clear the output file if it already exists
 > "$output_file"
@@ -15,5 +15,5 @@ done
 
 echo "All .md files have been appended to $output_file."
 
-zip .corpora.zip .corpora.md
-rm .corpora.md
+zip .nats.corpora.zip .nats.corpora.md
+rm .nats.corpora.md
