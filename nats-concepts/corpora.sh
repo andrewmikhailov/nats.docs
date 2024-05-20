@@ -14,3 +14,6 @@ find . -type f -name "*.md" | while read -r md_file; do
 done
 
 echo "All .md files have been appended to $output_file."
+
+zip .corpora.zip .corpora.md
+rm .corpora.md
